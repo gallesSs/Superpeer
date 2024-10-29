@@ -1,0 +1,39 @@
+.container {
+  width: 1312px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 284px;
+  padding: 25px 0;
+  margin: 0 auto;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #230b59;
+  font-size: 16px;
+}
+
+.btnList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.btnLog {
+  padding: 13px 21px;
+  background-color: white;
+  border: 1px solid #4840bb;
+  border-radius: 8px;
+  color: #4840bb;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btnStart {
+  composes: btnLog;
+}
