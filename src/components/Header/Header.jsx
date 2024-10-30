@@ -8,16 +8,24 @@ const Header = () => {
       <nav>
         <ul className={css.navBar}>
           <li>
-            <a href="#">Invest</a>
+            <a className={css.navLink} href="#">
+              Invest
+            </a>
           </li>
           <li>
-            <a href="#">Cash</a>
+            <a className={css.navLink} href="#">
+              Cash
+            </a>
           </li>
           <li>
-            <a href="#">Borrow</a>
+            <a className={css.navLink} href="#">
+              Borrow
+            </a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a className={css.navLink} href="#">
+              Blog
+            </a>
           </li>
         </ul>
       </nav>

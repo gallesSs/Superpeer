@@ -36,4 +36,11 @@
 
 .btnStart {
   composes: btnLog;
+  background-color: #4840bb;
+  color: #fff;
+  border: 0;
+}
+
+.navLink {
+  color: #4840bb;
 }
