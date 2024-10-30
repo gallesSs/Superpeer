@@ -11,7 +11,7 @@ const HeroInfo = () => {
       <div className={css.infoContainer}>
         <h1 className={css.title}>Make wealth your own</h1>
         <p className={css.subtitle}>
-          Personalized, Automated, Effortless Investing and Savings.
+          Personalized, Automated, Effortless, Investing and Savings.
         </p>
         <button className={css.button} type="button">
           Get started
