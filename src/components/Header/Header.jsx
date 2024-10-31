@@ -1,6 +1,6 @@
 import logo from "../../images/logo.png";
+import Btn from "../Extra/Btn";
 import css from "./Header.module.css";
-import logoSvg from "../../assets/Frame.svg";
 
 const Header = () => {
   return (
@@ -33,10 +33,7 @@ const Header = () => {
             </button>
           </li>
           <li>
-            <button className={css.btnLog} type="button">
-              <img src={logoSvg} alt="" className={css.svg} />
-              Become a superpeer
-            </button>
+            <Btn />
           </li>
         </ul>
       </div>
