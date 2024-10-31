@@ -1,12 +1,10 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import HeroInfo from "./components/Hero/HeroInfo/HeroInfo";
+import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      <HeroInfo />
     </>
   );
 }

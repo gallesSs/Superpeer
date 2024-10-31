@@ -1,9 +1,9 @@
 .container {
-  width: 1312px;
+  width: 1026px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 284px;
+  gap: 88px;
   padding: 25px 0;
   margin: 0 auto;
 }
@@ -13,8 +13,14 @@
   justify-content: center;
   align-items: center;
   gap: 48px;
-  color: #230b59;
+  color: #222;
+  font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px; /* 140% */
+  text-transform: uppercase;
+  margin-right: 26px;
 }
 
 .btnList {
@@ -25,22 +31,36 @@
 }
 
 .btnLog {
-  padding: 13px 21px;
-  background-color: white;
-  border: 1px solid #4840bb;
-  border-radius: 8px;
-  color: #4840bb;
-  font-weight: bold;
+  color: #222;
+  font-family: Roboto;
   font-size: 16px;
-}
-
-.btnStart {
-  composes: btnLog;
-  background-color: #4840bb;
-  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px; /* 140% */
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #ffd338;
+  width: 227px;
+  height: 48px;
+  flex-shrink: 0;
   border: 0;
 }
 
-.navLink {
-  color: #4840bb;
+.btnSign {
+  width: 109px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border: 0;
+  color: #222;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px; /* 140% */
+  text-transform: uppercase;
+}
+
+.svg {
+  margin-right: 8px;
 }

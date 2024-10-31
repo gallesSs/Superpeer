@@ -1,5 +1,6 @@
 import logo from "../../images/logo.png";
 import css from "./Header.module.css";
+import logoSvg from "../../assets/Frame.svg";
 
 const Header = () => {
   return (
@@ -9,22 +10,17 @@ const Header = () => {
         <ul className={css.navBar}>
           <li>
             <a className={css.navLink} href="#">
-              Invest
+              Home
             </a>
           </li>
           <li>
             <a className={css.navLink} href="#">
-              Cash
+              Features
             </a>
           </li>
           <li>
             <a className={css.navLink} href="#">
-              Borrow
-            </a>
-          </li>
-          <li>
-            <a className={css.navLink} href="#">
-              Blog
+              About us
             </a>
           </li>
         </ul>
@@ -32,13 +28,14 @@ const Header = () => {
       <div>
         <ul className={css.btnList}>
           <li>
-            <button className={css.btnLog} type="button">
-              Log in
+            <button className={css.btnSign} type="button">
+              Sign In
             </button>
           </li>
           <li>
-            <button className={css.btnStart} type="button">
-              Get started
+            <button className={css.btnLog} type="button">
+              <img src={logoSvg} alt="" className={css.svg} />
+              Become a superpeer
             </button>
           </li>
         </ul>
